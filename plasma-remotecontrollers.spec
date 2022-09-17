@@ -26,6 +26,7 @@ BuildRequires:	pkgconfig(Qt5DBus)
 BuildRequires:	pkgconfig(Qt5Gui)
 BuildRequires:	pkgconfig(Qt5Test)
 BuildRequires:	pkgconfig(Qt5X11Extras)
+BuildRequires:	cmake(LibTaskManager)
 BuildRequires:	cmake(PlasmaWaylandProtocols) >= 1.4.0
 BuildRequires:	pkgconfig(Qt5WaylandClient)
 BuildRequires:	pkgconfig(libcec)
