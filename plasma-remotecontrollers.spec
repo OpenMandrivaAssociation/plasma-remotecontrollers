@@ -31,9 +31,11 @@ BuildRequires:	cmake(PlasmaWaylandProtocols) >= 1.4.0
 BuildRequires:	pkgconfig(Qt5WaylandClient)
 BuildRequires:	pkgconfig(libcec)
 BuildRequires:	pkgconfig(libevdev)
+BuildRequires:	qml(org.kde.plasma.core)
+Requires:	qml(org.kde.plasma.core)
 
 %description
-Remote control interface for Plasma, primarily for use with plasma-bigscreen
+Remote control interface for Plasma, primarily for use with plasma-bigscreen.
 
 %files -f %{name}.lang
 %{_sysconfdir}/xdg/autostart/org.kde.plasma-remotecontrollers.desktop
