@@ -2,7 +2,7 @@
 
 Summary:	Remote control interface for Plasma, primarily for use with plasma-bigscreen
 Name:		plasma-remotecontrollers
-Version:	5.26.3
+Version:	5.26.4
 Release:	1
 License:	LGPL
 Group:		System/Libraries
