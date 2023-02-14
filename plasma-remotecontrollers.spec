@@ -2,7 +2,7 @@
 
 Summary:	Remote control interface for Plasma, primarily for use with plasma-bigscreen
 Name:		plasma-remotecontrollers
-Version:	5.26.5
+Version:	5.27.0
 Release:	1
 License:	LGPL
 Group:		System/Libraries
@@ -45,13 +45,14 @@ Remote control interface for Plasma, primarily for use with plasma-bigscreen.
 %{_libdir}/qt5/qml/org/kde/plasma/remotecontrollers
 %{_libdir}/udev/rules.d/40-uinput.rules
 %{_datadir}/applications/org.kde.plasma-remotecontrollers.desktop
-%{_datadir}/dbus-1/interfaces/org.kde.plasma-remotecontrollers.CEC.xml
-%{_datadir}/dbus-1/interfaces/org.kde.plasma-remotecontrollers.EVDEV.xml
 %{_datadir}/knotifications5/plasma-remotecontrollers.notifyrc
 %{_datadir}/kpackage/kcms/kcm_mediacenter_remotecontrollers
 %{_datadir}/kservices5/kcm_mediacenter_remotecontrollers.desktop
 %{_datadir}/metainfo/org.kde.plasma.remotecontrollers.metainfo.xml
 %{_datadir}/qlogging-categories5/plasma-remotecontrollers.categories
+%{_datadir}/dbus-1/interfaces/org.kde.plasma.remotecontrollers.CEC.xml
+%{_datadir}/dbus-1/interfaces/org.kde.plasma.remotecontrollers.ControllerManager.xml
+%{_datadir}/dbus-1/interfaces/org.kde.plasma.remotecontrollers.EVDEV.xml
 
 #----------------------------------------------------------------------------
 
