@@ -20,14 +20,14 @@ BuildRequires:	cmake(KF5Package)
 BuildRequires:	cmake(KF5WindowSystem)
 BuildRequires:	cmake(QtWaylandScanner)
 BuildRequires:	cmake(WaylandScanner)
-BuildRequires:	cmake(ScreenSaverDBusInterface)
+BuildRequires:	cmake(KScreenLocker) < 5.27.50
 BuildRequires:	pkgconfig(wayland-scanner)
 BuildRequires:	pkgconfig(Qt5Core)
 BuildRequires:	pkgconfig(Qt5DBus)
 BuildRequires:	pkgconfig(Qt5Gui)
 BuildRequires:	pkgconfig(Qt5Test)
 BuildRequires:	pkgconfig(Qt5X11Extras)
-BuildRequires:	cmake(LibTaskManager)
+BuildRequires:	cmake(LibTaskManager) < 5.27.50
 BuildRequires:	cmake(PlasmaWaylandProtocols) >= 1.4.0
 BuildRequires:	pkgconfig(Qt5WaylandClient)
 BuildRequires:	pkgconfig(libcec)
