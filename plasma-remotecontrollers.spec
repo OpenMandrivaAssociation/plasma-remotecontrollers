@@ -6,7 +6,7 @@ Version:	5.27.11
 Release:	2
 License:	LGPL
 Group:		System/Libraries
-Url:		http://plasma-bigscreen.org/
+Url:		https://plasma-bigscreen.org/
 Source0:	http://download.kde.org/%{stable}/plasma/%(echo %{version} |cut -d. -f1-3)/%{name}-%{version}.tar.xz
 BuildRequires:	cmake(ECM)
 BuildRequires:	cmake(KF5Config)
